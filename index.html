@@ -3,10 +3,104 @@
 <head>
   <meta charset="UTF-8" />
   <title>Prepix Collection</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      background: #ffffff;
+    }
+
+    header {
+      padding: 20px 40px;
+      border-bottom: 1px solid #eee;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 80px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .products {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      border: 1px solid #eee;
+      padding: 18px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 12px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px 40px;
+      border-top: 1px solid #eee;
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Prepix Collection</h1>
-  <p>Website successfully connected. Minimal design coming next.</p>
+
+<header>
+  Prepix Collection
+</header>
+
+<section class="hero">
+  <h1>Art & Design That Inspires</h1>
+  <p>Minimal, modern pieces crafted for bold aesthetics.</p>
+</section>
+
+<section class="products">
+  <div class="card">
+    <img src="https://via.placeholder.com/300x220" />
+    <strong>Product Name</strong>
+    <p>Short description</p>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x220" />
+    <strong>Product Name</strong>
+    <p>Short description</p>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x220" />
+    <strong>Product Name</strong>
+    <p>Short description</p>
+  </div>
+</section>
+
+<footer>
+  © 2025 Prepix Collection — All Rights Reserved
+</footer>
+
 </body>
 </html>
